@@ -23,6 +23,4 @@ jobs:
           pip install pytest
 
       - name: Run Tests
-        run: |
-          cd ci-lab
-          pytest
+        run: pytest test_app.py
